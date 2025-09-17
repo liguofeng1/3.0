@@ -1,6 +1,6 @@
 {{#component "stylesheet" src="./card.css" | asset_url() /}}
 
-{{#1var article = props.article /}}
+{{#var article = props.article /}}
 
 <a
   href="{{ article.url | default(`javascript:void(0)`)}}"
